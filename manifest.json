@@ -3,7 +3,7 @@
   "name": "EasyCollapse",
   "version": "1.0.0",
   "description": "Chrome Extension for Easily Pasting Collapsible Sections on GitHub.",
-  "permissions": ["activeTab", "contextMenus"], 
+  "permissions": ["activeTab", "contextMenus", "scripting"], 
   "background": {
     "service_worker": "background.js"
   },
