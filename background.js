@@ -29,7 +29,8 @@ function pasteCollapsibleSection() {
   let collapsibleSection = `<details>
 <summary>Title</summary>
 
-Contents
+```
+```
 </details>`;
 
   cursor.value = (before + collapsibleSection + after);
