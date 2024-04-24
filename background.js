@@ -27,10 +27,10 @@ function pasteCollapsibleSection() {
   let after  = text.substring(end, text.length);
 
   let collapsibleSection = `<details>
-<summary>Title</summary>
+<summary></summary>
 
-```
-```
+\`\`\`
+\`\`\`
 </details>`;
 
   cursor.value = (before + collapsibleSection + after);
